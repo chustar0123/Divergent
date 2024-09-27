@@ -1,0 +1,102 @@
+@media (max-width: 600px){
+    .newLine{
+    margin: 20px auto;
+    font: 100px;
+    line-height: 25px;
+    }
+    .back{
+        height: 50px;
+        width: 70px;
+        border-radius: 50%;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 780px){
+    .backgroundimage h1{
+        color: white;
+        margin-top: 350px;
+        width: 400px;
+        font-size: 1.4em; /* Adjust as needed */
+        font-weight: bold; /* Adjust as needed */
+        align-items: center;
+        align-content: center;
+    }
+
+    .backgroundimage p {
+        font-size: 0.8em; /* Adjust as needed */
+        color: white;
+        margin-top: 20px;
+        width: 400px;
+        align-items: center;
+        align-content: center;
+    }
+}
+@media (max-width: 445px){
+    .backgroundimage h1{
+        color: white;
+        margin-top: 350px;
+        width: 200px;
+        font-size: 1.3em; /* Adjust as needed */
+        font-weight: bold; /* Adjust as needed */
+        align-items: center;
+        align-content: center;
+    }
+
+    .backgroundimage p {
+        font-size: 0.8em; /* Adjust as needed */
+        color: white;
+        margin-top: 20px;
+        width: 200px;
+        align-items: center;
+        align-content: center;
+    }
+}
+@media (max-width: 948px){
+
+    nav ul{
+        margin-right: 20px;
+        position: fixed;
+    }
+    nav a{
+        font-size: 15px;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 90vh;
+        background: #2f3640;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 15px;
+    
+    }
+    a.active,a:hover{
+        border: none;
+        color: #3498db;
+    }
+
+}
+.container{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    background-color: #ffcbcb;
+    width: 1150px;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: -40px;
+    margin-left: -80px;
+}
+.aboutUs{
+    margin-bottom: 70px;
+}
