@@ -105,7 +105,7 @@ function logoutUser() {
     localStorage.removeItem('password'); */
     
     alert('You have logged out successfully.');
-    window.location.href = 'Index.html'; // Redirect to login page
+    window.location.href = 'index.html'; // Redirect to login page
 }
 
 
