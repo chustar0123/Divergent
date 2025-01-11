@@ -1,0 +1,108 @@
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+html {
+    scroll-behavior: smooth;
+}
+#nav{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #34495e;
+}
+#myName{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  #about{
+      color: white;
+      font-weight: bold;
+  }
+  .navbar-nav .nav-item {
+      margin-right: 20px; 
+      font-size: 1.2rem;
+  }
+/* Background Image Section */
+.background-img {
+    background-image:linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('images/background-image.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.animation-trigger {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Active Class for Triggering the Animation */
+.animation-trigger.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.welcome-text {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    animation: slideInLeft 2s ease-out;
+}
+.sub-welcome{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5rem;
+    animation: slideInRight 2s ease-out;
+}
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Keyframes for p (Slide in from right with bounce) */
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+/* Content Section Styling */
+
+.logo{
+    border-radius: 5rem;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 0.5rem;
+}
+.more-about-us{
+    text-decoration: none;
+    background-color: #34495e;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    color: white;
+}
+
+
