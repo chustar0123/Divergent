@@ -1,0 +1,133 @@
+@media screen and (max-width: 835px){
+    .welcome-text {
+        width: 45rem;  /* Reduce width to 80% of the screen */
+        font-size: 3rem;  /* Reduce font size for smaller screens */
+        margin-top: 0;  /* Center the element vertically */
+        line-height: 1.4;  /* Adjust line height for better readability */
+    }
+    .sub-welcome{
+        color: #fff;
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 8rem;
+        animation: slideInRight 2s ease-out;
+    }
+    .more-about-us{
+        text-decoration: none;
+        background-color: #34495e;
+        padding: 0.5rem;
+        font-size: 1.9rem;
+        border-radius: 7px;
+        margin-top: 3rem;
+        color: white;
+    }
+    .form-container2 {
+        padding: 3rem;
+        margin-top: 6rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        height: 32rem;
+        width: 30rem;
+        background-color: #EEF0F6;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    }
+    .form-container1 {
+        padding: 3rem;
+        margin-top: 6rem;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        height: 28rem;
+        width: 27rem;
+        background-color: #EEF0F6;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    }
+}
+@media screen and (max-width: 600px){
+
+}
+@media screen and (max-width: 500px){
+#myName{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.navbar-nav .nav-item {
+    font-size: 1rem;
+}
+.logo{
+    border-radius: 5rem;
+    height: 3rem;
+    width: 3rem;
+}
+.welcome-text {
+    width: 22rem;  /* Reduce width to 80% of the screen */
+    font-size: 1.7rem;  /* Reduce font size for smaller screens */
+    margin: 2rem auto;  /* Center the element vertically */
+    line-height: 1.4;  /* Adjust line height for better readability */
+}
+.sub-welcome{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5rem;
+    animation: slideInRight 2s ease-out;
+}
+.more-about-us{
+    text-decoration: none;
+    background-color: #34495e;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    color: white;
+}
+.form-container1 {
+    padding: 3rem;
+    margin-top: 6rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: 25rem;
+    width: 20rem;
+    background-color: #EEF0F6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+.form-container2 {
+    padding: 3rem;
+    margin-top: 6rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: 30rem;
+    width: 20rem;
+    background-color: #EEF0F6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+#register-form{
+    height: 27rem;
+}
+}
+@media screen and (max-width: 320px){
+    .welcome-text {
+        width: 20rem;  /* Reduce width to 80% of the screen */
+        font-size: 1.4rem;  /* Reduce font size for smaller screens */
+        line-height: 1.4;  /* Adjust line height for better readability */
+    }
+    .sub-welcome{
+        color: #fff;
+        font-size: 1.3rem;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 3rem;
+        animation: slideInRight 2s ease-out;
+    }
+    .more-about-us{
+        text-decoration: none;
+        background-color: #34495e;
+        padding: 0.5rem;
+        font-size: 1.1rem;
+        border-radius: 7px;
+        color: white;
+    }
+}
+
+/*Registration Form*/
