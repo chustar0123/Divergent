@@ -24,7 +24,7 @@ html {
   }
 /* Background Image Section */
 .background-img {
-    background-image:linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('images/background-image.png');
+    background-image:linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('images/background-image.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
