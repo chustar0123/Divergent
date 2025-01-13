@@ -60,24 +60,28 @@
     height: 3rem;
     width: 3rem;
 }
+.background-img {
+    background-size: contain;
+    width: auto;
+}
 .welcome-text {
-    width: 22rem;  /* Reduce width to 80% of the screen */
+    width: 20rem;  /* Reduce width to 80% of the screen */
     font-size: 1.7rem;  /* Reduce font size for smaller screens */
-    margin: 2rem auto;  /* Center the element vertically */
     line-height: 1.4;  /* Adjust line height for better readability */
+    margin-top: -2rem;
 }
 .sub-welcome{
     color: #fff;
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 5rem;
+    font-size: 1rem;
+    width: 17rem;
+    margin-top: 1.5rem;
     animation: slideInRight 2s ease-out;
 }
+
 .more-about-us{
     text-decoration: none;
     background-color: #34495e;
-    padding: 0.5rem;
+   
     font-size: 1.2rem;
     border-radius: 7px;
     color: white;
@@ -105,8 +109,34 @@
 #register-form{
     height: 27rem;
 }
+
+
+/* Gallery Section*/
+.container1{
+    margin: 100px 0 0 50px;
+    width: 90%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 30px;
+}
+.container1 img{
+    width: 9%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px;
+    transition: all ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container1 img:hover{
+    width: 25%;
+}
+
 }
 @media screen and (max-width: 320px){
+    
     .welcome-text {
         width: 20rem;  /* Reduce width to 80% of the screen */
         font-size: 1.4rem;  /* Reduce font size for smaller screens */

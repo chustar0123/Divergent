@@ -14,7 +14,41 @@ html {
     font-weight: bold;
     font-size: 1.5rem;
   }
-  #about{
+
+
+
+
+  /*Gallery Section*/
+  .offer{
+    color: #38598b;
+    text-align: center;
+  
+}
+.container1{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.container1 img{
+    width: 14%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px;
+    transition: all ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container1 img:hover{
+    width: 25%;
+}
+
+
+
+
+  .navbar-nav .nav-item .nav-link{
       color: white;
       font-weight: bold;
   }
@@ -51,8 +85,6 @@ html {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     text-align: center;
     margin-top: 8rem;
-    margin-left: auto;
-    margin-right: auto;
     animation: slideInLeft 2s ease-out;
 }
 .sub-welcome{
@@ -62,6 +94,8 @@ html {
     font-weight: bold;
     margin-top: 5rem;
     animation: slideInRight 2s ease-out;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 @keyframes slideInLeft {
     0% {
