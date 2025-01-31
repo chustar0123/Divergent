@@ -52,6 +52,9 @@ html {
       color: white;
       font-weight: bold;
   }
+  .nav-link{
+    color: white;
+  }
   .navbar-nav .nav-item {
       margin-right: 20px; 
       font-size: 1.2rem;
