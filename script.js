@@ -15,21 +15,8 @@ function handleScroll() {
         }
     });
 }
-
-document.addEventListener("DOMContentLoaded", function() {
-    var navbarToggler = document.querySelector(".navbar-toggler");
-    var navbarCollapse = document.querySelector("#navbarSupportedContent");
-
-    if (navbarToggler) {
-        navbarToggler.addEventListener("click", function() {
-            setTimeout(() => {
-                navbarCollapse.classList.add("show"); // Ensures the navbar stays open
-            }, 10);
-        });
-    }
-});
-
-
+var copy = document.querySelector(".container1").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
 // Listen for the scroll event
 window.addEventListener('scroll', handleScroll);
 

@@ -77,6 +77,10 @@
     margin-top: 1.5rem;
     animation: slideInRight 2s ease-out;
 }
+.sub-welcome {
+    animation: slideInRight 2s ease-out 0.5s forwards; /* Add delay and keep final state */
+    opacity: 1; /* Ensure it's visible */
+}
 
 .more-about-us{
     text-decoration: none;
@@ -109,10 +113,21 @@
 #register-form{
     height: 27rem;
 }
-
+.container1 img {
+    margin: 0 0.5rem;
+    padding: 0;
+    border-radius: 0.5rem;
+    width: 9rem;
+    height: 11rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .sub-welcome {
+    animation: slideInRight 2s ease-out 0.5s forwards; /* Add delay and keep final state */
+    opacity: 1; /* Ensure it's visible */
+}
 
 /* Gallery Section*/
-.container1{
+/* .container1{
     margin: 100px 0 0 50px;
     width: 90%;
     height: 350px;
@@ -132,7 +147,8 @@
 }
 .container1 img:hover{
     width: 25%;
-}
+} */
+
 
 }
 @media screen and (max-width: 320px){
@@ -157,6 +173,10 @@
         font-size: 1.1rem;
         border-radius: 7px;
         color: white;
+    }
+    .sub-welcome {
+        animation: slideInRight 2s ease-out 0.5s forwards; /* Add delay and keep final state */
+        opacity: 1; /* Ensure it's visible */
     }
 }
 

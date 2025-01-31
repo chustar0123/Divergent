@@ -1,6 +1,9 @@
+
+
 body{
     overflow-x: hidden;
     overflow-y: scroll;
+   
 }
 html {
     scroll-behavior: smooth;
@@ -15,38 +18,12 @@ html {
     font-size: 1.5rem;
   }
 
-
-
-
   /*Gallery Section*/
   .offer{
     color: #38598b;
     text-align: center;
     margin-top: 4rem;
 }
-.container1{
-    margin: 100px 0 0 200px;
-    width: 70%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-.container1 img{
-    width: 14%;
-    height: 80%;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 2px;
-    transition: all ease-in-out;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.container1 img:hover{
-    width: 25%;
-}
-
-
-
 
   .navbar-nav .nav-item .nav-link{
       color: white;
@@ -100,6 +77,10 @@ html {
     overflow: hidden;
     word-wrap: break-word;
 }
+.sub-welcome {
+    animation: slideInRight 2s ease-out 0.5s forwards; /* Add delay and keep final state */
+    opacity: 1; /* Ensure it's visible */
+}
 @keyframes slideInLeft {
     0% {
         transform: translateX(-100%);
@@ -141,5 +122,53 @@ html {
     color: white;
     margin-top: 3rem;
 }
+
+
+
+
+
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    background: white;
+    padding: 60px 0;
+    white-space: nowrap;
+ 
+  }
+  
+
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+  }
+  
+  .container1 {
+    display: inline-block;
+    animation: 28s slide infinite linear;
+    white-space: nowrap;
+    
+  }
+  
+  .container1 img {
+    margin: 0 2rem;
+    padding: 0;
+    border-radius: 0.5rem;
+    height: 20rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
 
 
